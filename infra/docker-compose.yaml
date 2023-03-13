@@ -11,7 +11,7 @@ services:
 
   web:
     container_name: web
-    build: ../api_yamdb
+    image: aerobean/infra_project:latest
     restart: always
     volumes:
       - static_value:/app/static/
