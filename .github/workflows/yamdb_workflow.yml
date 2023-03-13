@@ -50,7 +50,7 @@ jobs:
     needs: build_and_push_to_docker_hub
     steps:
       - name: executing remote ssh commands to deploy
-        uses: aerobean/ssh-action@master
+        uses: appleboy/ssh-action@master
         with:
           host: ${{ secrets.HOST }}
           username: ${{ secrets.USER }}
@@ -72,7 +72,7 @@ jobs:
     needs: deploy
     steps:
     - name: send message
-      uses: aerobean/telegram-action@master
+      uses: zorro_dev/telegram-action@master
       with:
         to: ${{ secrets.TELEGRAM_TO }}
         token: ${{ secrets.TELEGRAM_TOKEN }}
