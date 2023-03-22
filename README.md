@@ -1,7 +1,7 @@
 # Проект YaMDB
 
 
-![Api Yamdb](https://github.com/Denyacore/yamdb_final/actions/workflows/yamdb_workflow.yml/badge.svg)
+![Api Yamdb](https://github.com/aerobean/yamdb_final/actions/workflows/yamdb_workflow.yml/badge.svg)
 
 ## Описание
 Приложение для оценки различных произведений
